@@ -28,6 +28,10 @@ public class StepDefinitions{
 
     private ModelMapper mapper;
 
+    private CustomerDto customerDto;
+
+    private String param;
+
     @Before
     public void setUp() {
 
@@ -39,14 +43,15 @@ public class StepDefinitions{
 
     }
 
-    @Given("Customer Id is {string}")
-    public void given_some_Customer(String id) {
+    @Given("Customer Id is {string} {string}")
+    public void given_some_Customer(String id, String param) {
         customerId = UUID.fromString(id);
+        this.param = param;
     }
 
     @When("Searching for CustomerId")
     public void i_ask_if_Customer_is_null() {
-        CustomerDto customerDto = customerExpected.getCustomerDto(customerId);
+        customerDto = customerExpected.getCustomerDto(customerId);
         if(customerDto == null)
             customerId = null;
         else
@@ -54,8 +59,12 @@ public class StepDefinitions{
     }
 
     @Then("Return {string}")
-    public void i_should_be_told(String id) {
-        assertEquals(String.valueOf(customerId), id);
+    public void i_should_be_compare(String value) {
+        if("id".equals(param)) {
+            assertEquals(customerDto == null ? "null" : String.valueOf(customerDto.getId()), value);
+        }else{
+            assertEquals(customerDto == null ? "null" : String.valueOf(customerDto.getName()), value);
+        }
     }
 
 }
