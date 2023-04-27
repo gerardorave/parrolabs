@@ -1,5 +1,6 @@
 package co.parrolabs.service.impl;
 
+import co.parrolabs.dto.CustomerDto;
 import co.parrolabs.dto.OrderCustomerDto;
 import co.parrolabs.dto.ProductDto;
 import co.parrolabs.dto.mongodb.ProductMongoDbDto;
@@ -58,8 +59,12 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public ProductDto getProductById(UUID id) {
-        Product product = productRepository.findById(id).get();
-        return mapper.map(product, ProductDto.class);
+        Optional<Product> productOptional = productRepository.findById(id);
+        if(!productOptional.isPresent())
+            return null;
+        else {
+            return mapper.map(productOptional.get(), ProductDto.class);
+        }
     }
 
     @Override

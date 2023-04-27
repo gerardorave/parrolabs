@@ -22,7 +22,9 @@ repositories {
     mavenLocal()
     mavenCentral()
 }
-
+ext {
+    set('cucumberVersion', "7.11.2")
+}
 dependencies {
     implementation 'co.parrolabs:models_dtos:1.0-SNAPSHOT'
     implementation 'org.apache.commons:commons-lang3:3.12.0'
@@ -37,7 +39,6 @@ dependencies {
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'
     implementation 'org.modelmapper:modelmapper:2.4.4'
-    testImplementation group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
     implementation 'org.springframework.boot:spring-boot-starter-webflux:2.6.4'
     implementation 'commons-codec:commons-codec:1.15'
     implementation 'org.springframework.data:spring-data-commons:2.7.5'
@@ -55,7 +56,14 @@ dependencies {
     implementation 'org.springframework.kafka:spring-kafka'
     testImplementation 'org.springframework.kafka:spring-kafka-test'
     implementation 'org.springframework.boot:spring-boot-starter-validation:2.4.0'
-    implementation 'javax.validation:validation-api:2.0.1.FINAL'
+    implementation 'org.junit.platform:junit-platform-commons:1.8.1'
+    testImplementation 'org.mockito:mockito-core:4.11.0'
+    implementation 'net.bytebuddy:byte-buddy:1.14.4'
+    testImplementation "io.cucumber:cucumber-java:${cucumberVersion}"
+    testImplementation "io.cucumber:cucumber-junit:${cucumberVersion}"
+    testImplementation "io.cucumber:cucumber-core:${cucumberVersion}"
+    testImplementation "io.cucumber:cucumber-junit-platform-engine:${cucumberVersion}"
+    testImplementation "io.cucumber:cucumber-picocontainer:${cucumberVersion}"
 
 }
 
