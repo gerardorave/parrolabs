@@ -9,29 +9,6 @@
       <change afterPath="$PROJECT_DIR$/../../prueba2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../prueba2/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../prueba2/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/src/main/java/co/parrolabs/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/src/main/java/co/parrolabs/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/src/main/java/co/parrolabs/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/src/main/java/co/parrolabs/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModels/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceOrderCustomer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceOrderCustomer/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceOrderCustomer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceOrderCustomer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceOrderCustomer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceOrderCustomer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zk-single-kafka-multiple/kafka1/data/meta.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../zk-single-kafka-multiple/kafka1/data/meta.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring-boot-2-jpa-with-hibernate-and-h2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-boot-2-jpa-with-hibernate-and-h2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring-boot-2-jpa-with-hibernate-and-h2/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-boot-2-jpa-with-hibernate-and-h2/readme.md" afterDir="false" />
     </list>
