@@ -64,7 +64,7 @@ dependencies {
     testImplementation "io.cucumber:cucumber-core:${cucumberVersion}"
     testImplementation "io.cucumber:cucumber-junit-platform-engine:${cucumberVersion}"
     testImplementation "io.cucumber:cucumber-picocontainer:${cucumberVersion}"
-
+    implementation 'io.vavr:vavr:0.10.3'
 }
 
 

@@ -26,7 +26,8 @@ CREATE TABLE  IF NOT EXISTS customer(
    phone VARCHAR(100),
    email VARCHAR(100) NOT NULL,
    primary_shipping_address BINARY(16),
-   CONSTRAINT UC_Customer UNIQUE (name,email)
+   CONSTRAINT UC_Customer_name UNIQUE (name),
+   CONSTRAINT UC_Customer_email UNIQUE (email)
 );
 
 CREATE TABLE   IF NOT EXISTS shipping_address(
@@ -46,10 +47,8 @@ CREATE TABLE   IF NOT EXISTS order_customer(
    arrival_date DATE,
    payment_type_id BINARY(16) NOT NULL,
    customer_id BINARY(16) NOT NULL,
-   order_number INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
    FOREIGN KEY (customer_id) REFERENCES customer(id),
-   FOREIGN KEY (payment_type_id) REFERENCES payment_type(id),
-   CONSTRAINT UC_Order_Customer UNIQUE (order_number)
+   FOREIGN KEY (payment_type_id) REFERENCES payment_type(id)
 );
 
 CREATE TABLE   IF NOT EXISTS order_product(
