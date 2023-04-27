@@ -1,0 +1,251 @@
+{
+	"info": {
+		"_postman_id": "d7ac5f97-4985-469f-9efb-715788db6eb3",
+		"name": "parrolabs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2361419",
+		"_collection_link": "https://crimson-equinox-123893.postman.co/workspace/Example~7546e98f-4a24-4d9d-8a37-e0732571c4fb/collection/2361419-d7ac5f97-4985-469f-9efb-715788db6eb3?action=share&creator=2361419&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "save Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Product\",\n    \"description\": \"description product\",\n    \"price\":27.4,\n    \"weight\":130.8\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8088/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "integration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"id\": \"c50e0f7b-714e-433f-8433-644f7c814524\", \n    \"name\":\"Product\",\n    \"description\": \"description product\",\n    \"price\":27.4,\n    \"weight\":130.8\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/integrate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"integrate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "integration Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"id\": \"c50e0f7b-714e-433f-8433-644f7c814524\", \n    \"name\":\"Product\",\n    \"description\": \"description product\",\n    \"price\":27.4,\n    \"weight\":130.8\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/integrate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"integrate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Product\",\n    \"description\": \"description product\",\n    \"price\":27.4,\n    \"weight\":130.8\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8088/product/saveProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"product",
+						"saveProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Customer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Product\",\n    \"description\": \"description product\",\n    \"price\":27.4,\n    \"weight\":130.8\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8088/customer/deleteCustomer/7d1be453-a7ed-4253-9727-3458c77c6a6c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"customer",
+						"deleteCustomer",
+						"7d1be453-a7ed-4253-9727-3458c77c6a6c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getProductById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8088/product/80554834-b031-461d-801c-229f1e7240e6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"product",
+						"80554834-b031-461d-801c-229f1e7240e6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getDeletedProducts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8088/product/deletedProducts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"product",
+						"deletedProducts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saver Order",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"orderDate\":\"2023-04-01 10:00:00.000\",\n    \"customerId\":\"fe1f2731-ef07-4203-aa89-e645d0b82026\", \n    \"paymentTypeId\":\"f6b143e3-59a2-4777-a2a2-b73d87a6e047\",\n    \"shippingAddressId\":\"\",\n    \"productsAndQuantities\":[{\"idProduct\":\"af57ec78-327b-428f-bba6-a29c1fa329f7\",\"quantity\":2},\n    {\"idProduct\":\"5c01a817-78ae-4ceb-b932-d41d25e98411\",\"quantity\":1},\n    {\"idProduct\":\"41ee4815-52ea-462b-81bf-415b6a30eadc\",\"quantity\":3}\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8089/orderCustomer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"orderCustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "additionalInfoForOrder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"customerId\":\"fe1f2731-ef07-4203-aa89-e645d0b82026\", \n    \"paymentTypeId\":\"f6b143e3-59a2-4777-a2a2-b73d87a6e047\",\n    \"shippingAddressId\":\"\",\n    \"productsIds\":[\"af57ec78-327b-428f-bba6-a29c1fa329f7\",\"5c01a817-78ae-4ceb-b932-d41d25e98411\",\"41ee4815-52ea-462b-81bf-415b6a30eadc\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8088/product/additionalInfoForOrder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"product",
+						"additionalInfoForOrder"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
