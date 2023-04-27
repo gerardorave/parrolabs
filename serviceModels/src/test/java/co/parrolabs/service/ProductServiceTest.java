@@ -19,7 +19,6 @@ import org.springframework.test.context.ContextConfiguration;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@ContextConfiguration(classes = ApplicationConfig.class)
 @ExtendWith(MockitoExtension.class)
 public class ProductServiceTest {
 
