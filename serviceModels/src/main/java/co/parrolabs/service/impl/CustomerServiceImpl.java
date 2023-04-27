@@ -50,11 +50,7 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public CustomerDto getCustomerById(UUID id) {
         Optional<Customer> customerOptional = customerRepository.findById(id);
-        if(!customerOptional.isPresent())
-            return null;
-        else {
-            return mapper.map(customerOptional.get(), CustomerDto.class);
-        }
+        return customerOptional.isPresent()? mapper.map(customerOptional.get(), CustomerDto.class):null;
     }
 
     @Override

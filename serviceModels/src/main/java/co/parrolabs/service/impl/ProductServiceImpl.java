@@ -60,11 +60,7 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public ProductDto getProductById(UUID id) {
         Optional<Product> productOptional = productRepository.findById(id);
-        if(!productOptional.isPresent())
-            return null;
-        else {
-            return mapper.map(productOptional.get(), ProductDto.class);
-        }
+        return productOptional.isPresent()?mapper.map(productOptional.get(), ProductDto.class):null;
     }
 
     @Override
