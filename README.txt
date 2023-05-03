@@ -38,6 +38,7 @@ How to run
 
 1.open model-dtos project (the project is done whith maven and the ide was Intellij in case you want to open it with that ide) (clean and install to create the jar and pom in local repository)
 
+
 2.make su you have Admin rights, after that you need to execute:
 docker compose up -d
 
