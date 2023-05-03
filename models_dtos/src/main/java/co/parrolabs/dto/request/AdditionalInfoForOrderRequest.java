@@ -18,7 +18,7 @@ public class AdditionalInfoForOrderRequest {
     @NotNull(message = "productsIds can't be null")
     @NotEmpty(message = " productsIds can't be empty")
     private List<UUID> productsIds;
-    @NotNull(message="Shipping address Id can't be null")
+
     private UUID shippingAddressId;
     @NotNull(message="customerId address Id can't be null")
     private UUID customerId;
