@@ -22,15 +22,15 @@ the ports that we need to run the app are:
 6379: redis
 
 
-in this project are included some request done with postman (the file is "parrolabs.postman_collection.json") the idea 
+in this project are included some requests done with postman (the file is "parrolabs.postman_collection.json") the idea 
 is use the esb Service as the mediator between the services and the comunication must be done using this service 
-due to that all the request must be sending by through the por 8090 the communication between them is handle by this service 
+due to that all the requests must be sending by through the por 8090 the communication between them is handle by this service 
 
 Architecture:
 
-The esb bus is ESB service (i started to dosome trans transformations unsing spring integration but i couldn't finished)
+The esb bus is ESB service (i started to do some transformations using spring integration but i couldn't finished)
 the cache is handleby Redis the deleted data is stored in mongo db database, the httpclient used mostly is feign but i did some
-ResTemplate request as well
+ResTemplate requests as well
  
 the MER is described in (ER.png)
 
@@ -38,7 +38,8 @@ How to run
 
 1.open model-dtos project (the project is done whith maven and the ide was Intellij in case you want to open it with that ide) (clean and install to create the jar and pom in local repository)
 
-2.make su you have Admin rights, the you need to execute:
+
+2.make su you have Admin rights, after that you need to execute:
 docker compose up -d
 
 3. once the containers are up you need to start (springBot service) service Models (this service has the beans to create the tables and 
