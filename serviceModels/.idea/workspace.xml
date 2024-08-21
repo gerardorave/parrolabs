@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70152b27-4a35-4c68-b421-3e5082476f09" name="Changes" comment="ignore code." />
+    <list default="true" id="70152b27-4a35-4c68-b421-3e5082476f09" name="Changes" comment="ignore code.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/controller/constants/ControllerConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/CustomAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/OktaClientConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/OktaTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/client/OktaTokenClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/constants/AuthorizationConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/dto/OktaTokenDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/filter/OktaBasicAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/mock/TokenResponseOkta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/mock/UserJwtPayLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/springsecurity/configuration/SpringSecurityApiConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/util/WebfluxUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +92,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gerardo/Desktop/Gerardo/gitProjects/parrolabs/serviceModels",
+    "last_opened_file_path": "/home/gerardo/Desktop/Gerardo/gitProjects/parrolabs/serviceModels/src/main/java/co/parrolabs",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.5",
@@ -84,11 +101,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs" />
+      <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs/controller" />
       <recent name="$PROJECT_DIR$/src/test/java/co/parrolabs/service/cucumber" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs" />
       <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs/model" />
-      <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs/kafka" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
@@ -415,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724264416693</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ignore code.">
+      <option name="closed" value="true" />
+      <created>1724264489541</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724264489541</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -65,6 +65,8 @@ dependencies {
     testImplementation "io.cucumber:cucumber-junit-platform-engine:${cucumberVersion}"
     testImplementation "io.cucumber:cucumber-picocontainer:${cucumberVersion}"
     implementation 'io.vavr:vavr:0.10.3'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.cloud:spring-cloud-starter-sleuth:3.0.5'
 }
 
 
