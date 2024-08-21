@@ -64,7 +64,16 @@ dependencies {
     implementation "org.springframework.integration:spring-integration-http:${springVersion}"
     implementation 'org.springframework.integration:spring-integration-kafka:5.5.0'
     implementation "javax.activation:activation:${javaxActivationVersion}"
-
+    implementation 'org.springframework:spring-messaging:5.3.13'
+    implementation 'io.vavr:vavr:0.10.3'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.cloud:spring-cloud-starter-sleuth:3.0.5'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    // Use Undertow instead
+    implementation 'io.projectreactor:reactor-core:3.3.22.RELEASE'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    //implementation 'org.springframework.boot:spring-boot-starter-undertow'
+    implementation 'org.springframework.boot:spring-boot-starter-reactor-netty'
 
 }
 
