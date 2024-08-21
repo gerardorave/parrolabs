@@ -69,3 +69,8 @@ spring:
 logging:
   file:
     path: ${LOGGER_FOLDER_LOCATION:log}
+client:
+  okta:
+    url: ${OKTA_DOMAIN_URL:dev-mox5llxuy7gee3qr.us.auth0.com}
+    clientId: ${OKTA_PARCEL_CLIENT_ID:0gEDidJR8Jc72ZtOjeVALq3iX7DZVyAU}
+    clientSecret: ${OKTA_PARCEL_CLIENT_SECRET:OSw0ACCWkB-Nds_Wny-6J9IcZAQ2ZdLLyzARFcT9Qq9kLE6k6Np7esJLo85b2RRb}

@@ -4,65 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70152b27-4a35-4c68-b421-3e5082476f09" name="Changes" comment="Changes to compact The Code.">
-      <change afterPath="$PROJECT_DIR$/../../prueba1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../prueba2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../prueba2/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../prueba2/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../models_dtos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../models_dtos/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../models_dtos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../models_dtos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../models_dtos/src/main/java/co/parrolabs/dto/request/CustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../models_dtos/src/main/java/co/parrolabs/dto/request/CustomerRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
+    <list default="true" id="70152b27-4a35-4c68-b421-3e5082476f09" name="Changes" comment="ignore code.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/controller/constants/ControllerConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/CustomAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/OktaClientConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/OktaTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/client/OktaTokenClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/constants/AuthorizationConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/dto/OktaTokenDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/filter/OktaBasicAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/mock/TokenResponseOkta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/mock/UserJwtPayLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/springsecurity/configuration/SpringSecurityApiConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/security/util/WebfluxUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/parrolabs/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/parrolabs/service/impl/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/parrolabs/service/impl/OrderServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/parrolabs/service/impl/OrderServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/parrolabs/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/parrolabs/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/parrolabs/service/impl/ProductServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/parrolabs/service/impl/ProductServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/parrolabs/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/parrolabs/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/parrolabs/builder/customer/CustomerBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/parrolabs/builder/product/ProductBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/parrolabs/builder/shippingaddress/ShippingAddressBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/parrolabs/controller/ProductControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/parrolabs/service/ProductServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/parrolabs/service/cucumber/CustomerExpected.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/parrolabs/service/cucumber/CustomerServiceCucumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/parrolabs/service/cucumber/StepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/db/migration/V100__init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/db/migration/V100__init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/parrolabs/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/parrolabs/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/parrolabs/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V100__init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V100__init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceOrderCustomer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceOrderCustomer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceOrderCustomer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceOrderCustomer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceOrderCustomer/src/main/java/co/parrolabs/service/impl/OrderCustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceOrderCustomer/src/main/java/co/parrolabs/service/impl/OrderCustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceOrderCustomer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceOrderCustomer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceOrderCustomer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceOrderCustomer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceOrderCustomer/target/classes/co/parrolabs/service/impl/OrderCustomerServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceOrderCustomer/target/classes/co/parrolabs/service/impl/OrderCustomerServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceOrderCustomer/target/classes/co/parrolabs/service/impl/OrderCustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceOrderCustomer/target/classes/co/parrolabs/service/impl/OrderCustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zk-single-kafka-multiple/kafka1/data/meta.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../zk-single-kafka-multiple/kafka1/data/meta.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-boot-2-jpa-with-hibernate-and-h2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-boot-2-jpa-with-hibernate-and-h2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-boot-2-jpa-with-hibernate-and-h2/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-boot-2-jpa-with-hibernate-and-h2/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -81,11 +46,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="service1" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="service1" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -102,6 +62,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JpbToolWindowState">
@@ -110,30 +75,37 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2OgL0hZdM10EzFavqoWOJc7UeVU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/gramirezv/Desktop/estudio/development/spring-boot-examples/parrolabs/serviceModels/src/test/java/co/parrolabs/service/cucumber&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.5&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.serviceProduct [clean build].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/gerardo/Desktop/Gerardo/gitProjects/parrolabs/serviceModels/src/main/java/co/parrolabs",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs" />
+      <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs/controller" />
       <recent name="$PROJECT_DIR$/src/test/java/co/parrolabs/service/cucumber" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs" />
       <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs/model" />
-      <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs/kafka" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
@@ -146,7 +118,7 @@
       <recent name="co.parrolabs.mongodb.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.serviceProduct [clean bootRun]">
+  <component name="RunManager" selected="Gradle.serviceProduct [clean build]">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -199,6 +171,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="ProductControllerTest.insertProduct" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -222,6 +195,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="ProductServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -245,6 +219,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="ProductServiceTest.createProduct" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -268,6 +243,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="ProductServiceTest.saveProduct" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -291,6 +267,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="serviceProduct [:clean installDist]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
@@ -313,6 +290,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="serviceProduct [clean bootRun]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
@@ -340,6 +318,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="serviceProduct [clean build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
@@ -362,6 +341,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="CustomerServiceCucumberTest" type="JUnit" factoryName="JUnit">
@@ -397,6 +377,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-a39a91d7" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -413,7 +400,47 @@
       <option name="project" value="LOCAL" />
       <updated>1682580980877</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ignore code.">
+      <option name="closed" value="true" />
+      <created>1724263667593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724263667593</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ignore code.">
+      <option name="closed" value="true" />
+      <created>1724263841811</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724263841811</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ignore code.">
+      <option name="closed" value="true" />
+      <created>1724264401660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724264401660</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ignore code.">
+      <option name="closed" value="true" />
+      <created>1724264416693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724264416693</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ignore code.">
+      <option name="closed" value="true" />
+      <created>1724264489541</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724264489541</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,7 +456,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes to compact The Code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to compact The Code." />
+    <MESSAGE value="ignore code." />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
