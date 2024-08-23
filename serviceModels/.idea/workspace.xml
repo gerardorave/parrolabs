@@ -6,8 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="70152b27-4a35-4c68-b421-3e5082476f09" name="Changes" comment="changes in Security.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serviceModelsWebflux/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serviceModelsWebflux/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serviceModelsWebflux/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serviceModelsWebflux/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serviceModelsWebflux/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../serviceModelsWebflux/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModelsWebflux/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceModelsWebflux/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serviceModelsWebflux/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModelsWebflux/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serviceModelsWebflux/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModelsWebflux/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +86,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/gerardo/Desktop/Gerardo/gitProjects/parrolabs/serviceModels",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.5",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
