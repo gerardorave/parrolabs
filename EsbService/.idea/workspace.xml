@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a182dcc8-d751-4c0c-92d0-3287c3c04402" name="Changes" comment="Changes to add in build.gradle .">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/httpclient/resttemplate/ServiceOrderCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/httpclient/webfluxwebclient/WebClientWebFlux.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/httpclient/webfluxwebclient/model/CustomerWithOrderDto.java" afterDir="false" />
+    <list default="true" id="a182dcc8-d751-4c0c-92d0-3287c3c04402" name="Changes" comment="Changes to create other httpClients .">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,24 +54,24 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2Ot6oXGGn24uZ9cKThv708lN4Jy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gerardo/Desktop/Gerardo/gitProjects/parrolabs/EsbService/src/main/java/co/parrolabs/httpclient",
-    "settings.editor.selected.configurable": "configurable.group.language"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gerardo/Desktop/Gerardo/esTudio/courses/codeTestsTmp/codeTests&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs/httpclient" />
@@ -199,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724275919557</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes to create other httpClients .">
+      <option name="closed" value="true" />
+      <created>1724276306298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724276306298</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +222,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes to add in build.gradle ." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to add in build.gradle ." />
+    <MESSAGE value="Changes to create other httpClients ." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes to create other httpClients ." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
