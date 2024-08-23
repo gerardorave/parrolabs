@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70152b27-4a35-4c68-b421-3e5082476f09" name="Changes" comment="changes in Security." />
+    <list default="true" id="70152b27-4a35-4c68-b421-3e5082476f09" name="Changes" comment="changes in Security.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serviceModelsWebflux/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModelsWebflux/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serviceModelsWebflux/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,9 +62,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2OgL0hZdM10EzFavqoWOJc7UeVU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -75,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gerardo/Desktop/Gerardo/gitProjects/parrolabs/serviceModels/src/main/java/co/parrolabs",
+    "last_opened_file_path": "/home/gerardo/Desktop/Gerardo/gitProjects/parrolabs/serviceModels",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.5",
