@@ -2,15 +2,20 @@ package co.parrolabs.kafka.config;
 
 import co.parrolabs.dto.ProductDto;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.core.DefaultKafkaProducerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.core.ProducerFactory;
 import org.springframework.kafka.support.serializer.JsonSerializer;
+import org.springframework.web.context.WebApplicationContext;
+import org.springframework.web.context.annotation.ApplicationScope;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,6 +28,12 @@ public class ProducerProductKafkaConfig {
     private String bootstrapServers;
 
     @Bean("kafkaTemplate")
+    //@Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
+    //@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+    //@Scope(value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS) or @SessionScope or
+    //@Scope(value = "session", proxyMode = ScopedProxyMode.TARGET_CLASS)
+    //@Scope(value = WebApplicationContext.SCOPE_APPLICATION, proxyMode = ScopedProxyMode.TARGET_CLASS) or @ApplicationScope
+    //@Scope(scopeName = "websocket", proxyMode = ScopedProxyMode.TARGET_CLASS)
     public KafkaTemplate<String, ProductDto> kafkaTemplate() {
         return new KafkaTemplate<>(kafkaProducerFactory());
     }
