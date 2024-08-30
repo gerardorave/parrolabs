@@ -20,6 +20,7 @@ public class CustomerController {
     private CustomerService customerService;
 
     @Autowired
+    //@Secured({“ROLE_VIEWER”,”ROLE_EDITOR”}) Same as @PreAuthorize(“hasRole(‘ROLE_VIEWER’)”)
     public CustomerController(CustomerService customerService) {
         this.customerService = customerService;
     }
