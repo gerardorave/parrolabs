@@ -42,7 +42,7 @@ dependencies {
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'
     implementation 'org.modelmapper:modelmapper:2.4.4'
-    testImplementation group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
+    //testImplementation group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
     implementation 'org.springframework.boot:spring-boot-starter-webflux:2.6.4'
     implementation 'commons-codec:commons-codec:1.15'
     implementation 'org.springframework.data:spring-data-commons:2.7.5'
@@ -69,6 +69,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.cloud:spring-cloud-starter-sleuth:3.0.5'
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
     // Use Undertow instead
     implementation 'io.projectreactor:reactor-core:3.3.22.RELEASE'
     implementation 'org.springframework.boot:spring-boot-starter-web'
