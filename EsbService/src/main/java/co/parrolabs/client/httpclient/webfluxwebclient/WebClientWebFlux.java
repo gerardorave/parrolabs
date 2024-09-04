@@ -1,9 +1,9 @@
-package co.parrolabs.httpclient.webfluxwebclient;
+package co.parrolabs.client.httpclient.webfluxwebclient;
 
+import co.parrolabs.client.httpclient.webfluxwebclient.model.CustomerWithOrderDto;
 import co.parrolabs.dto.CustomerDto;
 import co.parrolabs.dto.OrderCustomerDto;
 import co.parrolabs.dto.request.OrderCustomerRequest;
-import co.parrolabs.httpclient.webfluxwebclient.model.CustomerWithOrderDto;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpHeaders;

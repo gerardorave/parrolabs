@@ -75,6 +75,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     //implementation 'org.springframework.boot:spring-boot-starter-undertow'
     implementation 'org.springframework.boot:spring-boot-starter-reactor-netty'
+    implementation 'com.amazonaws:aws-java-sdk-lambda:1.11.648'
 
 }
 

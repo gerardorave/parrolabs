@@ -1,4 +1,4 @@
-package co.parrolabs.httpclient.resttemplate;
+package co.parrolabs.client.httpclient.resttemplate;
 
 import co.parrolabs.dto.OrderCustomerDto;
 import co.parrolabs.dto.mongodb.OrderCustomerMongoDbDto;
