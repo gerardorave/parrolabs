@@ -1,4 +1,4 @@
-package co.parrolabs.httpclient.feign;
+package co.parrolabs.client.httpclient.feign;
 
 
 

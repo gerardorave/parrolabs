@@ -1,4 +1,4 @@
-package co.parrolabs.httpclient.webfluxwebclient.model;
+package co.parrolabs.client.httpclient.webfluxwebclient.model;
 
 import co.parrolabs.dto.CustomerDto;
 import co.parrolabs.dto.OrderCustomerDto;

@@ -3,11 +3,10 @@ package co.parrolabs.service.impl;
 import co.parrolabs.dto.OrderCustomerDto;
 import co.parrolabs.dto.mongodb.OrderCustomerMongoDbDto;
 import co.parrolabs.dto.request.OrderCustomerRequest;
-import co.parrolabs.httpclient.feign.ClientFeignServiceOrderCustomer;
+import co.parrolabs.client.httpclient.feign.ClientFeignServiceOrderCustomer;
 import co.parrolabs.service.OrderCustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;

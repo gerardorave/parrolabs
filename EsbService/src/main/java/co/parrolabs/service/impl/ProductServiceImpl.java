@@ -5,14 +5,12 @@ import co.parrolabs.dto.ProductDto;
 import co.parrolabs.dto.mongodb.ProductMongoDbDto;
 import co.parrolabs.dto.request.AdditionalInfoForOrderRequest;
 import co.parrolabs.dto.request.ProductRequest;
-import co.parrolabs.httpclient.feign.ClientFeignServiceModelsProduct;
+import co.parrolabs.client.httpclient.feign.ClientFeignServiceModelsProduct;
 
 import co.parrolabs.kafka.ProducerProductKafka;
 import co.parrolabs.service.ProductService;
-import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.stereotype.Service;
 
 
