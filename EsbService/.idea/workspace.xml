@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a182dcc8-d751-4c0c-92d0-3287c3c04402" name="Changes" comment="Changes To Create interceptors show annotation scopeS and security with Oath2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/client/lambda/DeleteFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/client/lambda/LambdaInvokeFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/client/lambda/ListFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
@@ -21,16 +18,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/parrolabs/httpclient/feign/ClientFeignServiceModelsCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/client/httpclient/feign/ClientFeignServiceModelsCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/parrolabs/httpclient/feign/ClientFeignServiceModelsProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/client/httpclient/feign/ClientFeignServiceModelsProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/parrolabs/httpclient/feign/ClientFeignServiceOrderCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/client/httpclient/feign/ClientFeignServiceOrderCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/parrolabs/httpclient/resttemplate/ServiceOrderCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/client/httpclient/resttemplate/ServiceOrderCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/parrolabs/httpclient/webfluxwebclient/WebClientWebFlux.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/client/httpclient/webfluxwebclient/WebClientWebFlux.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/parrolabs/httpclient/webfluxwebclient/model/CustomerWithOrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/client/httpclient/webfluxwebclient/model/CustomerWithOrderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/parrolabs/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/parrolabs/service/impl/OrderCustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/service/impl/OrderCustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/parrolabs/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/parrolabs/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/parrolabs/kafka/co/parrolabs/TestSecurityRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/parrolabs/TestSecurityRoles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../serviceModels/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceModels/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serviceOrderCustomer/src/main/java/co/parrolabs/service/impl/OrderCustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceOrderCustomer/src/main/java/co/parrolabs/service/impl/OrderCustomerServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,17 +95,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.EsbService [:WebClientWebFlux.main()].executor": "Run",
+    "Gradle.TestSecurityRoles.givenAuthoritySysAdmin_whenCallGetUsernameLC_thenReturnUsername (1).executor": "Run",
+    "Gradle.TestSecurityRoles.givenAuthoritySysAdmin_whenCallGetUsernameLC_thenReturnUsername.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/gerardo/Desktop/Gerardo/gitProjects/parrolabs/EsbService/src/main/java/co/parrolabs/controller/client/lambda",
+    "last_opened_file_path": "/home/gerardo/Desktop/Gerardo/gitProjects/parrolabs/EsbService/src/main/java/co/parrolabs/controller",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs/controller/client/lambda" />
       <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs/controller" />
+      <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs/controller/client/lambda" />
       <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs/httpclient" />
       <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs/service" />
       <recent name="$PROJECT_DIR$/src/main/java/co/parrolabs" />
@@ -131,7 +123,7 @@
       <recent name="co.parrolabs.httpclient.feign" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WebClientWebFlux">
+  <component name="RunManager" selected="Gradle.TestSecurityRoles.givenAuthoritySysAdmin_whenCallGetUsernameLC_thenReturnUsername (1)">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -222,8 +214,58 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="TestSecurityRoles.givenAuthoritySysAdmin_whenCallGetUsernameLC_thenReturnUsername (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;co.parrolabs.TestSecurityRoles.givenAuthoritySysAdmin_whenCallGetUsernameLC_thenReturnUsername&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSecurityRoles.givenAuthoritySysAdmin_whenCallGetUsernameLC_thenReturnUsername" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;co.parrolabs.kafka.co.parrolabs.TestSecurityRoles.givenAuthoritySysAdmin_whenCallGetUsernameLC_thenReturnUsername&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestSecurityRoles.givenAuthoritySysAdmin_whenCallGetUsernameLC_thenReturnUsername (1)" />
+        <item itemvalue="Gradle.TestSecurityRoles.givenAuthoritySysAdmin_whenCallGetUsernameLC_thenReturnUsername" />
         <item itemvalue="Application.WebClientWebFlux" />
         <item itemvalue="Gradle.ProduProductServiceTest.createOneProduct" />
       </list>
@@ -285,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725029451001</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changes To Create interceptors show annotation scopeS and security with Oath2">
+      <option name="closed" value="true" />
+      <created>1725443609221</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725443609221</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -27,6 +27,8 @@ repositories {
 ext {
     set('springVersion',"5.5.12")
     set('javaxActivationVersion', "1.1.1")
+    set('awsLambdaJavaCore', "1.2.0")
+    set('awsLambdaJavaEvents',"3.1.0")
 }
 dependencies {
     implementation 'co.parrolabs:models_dtos:1.0-SNAPSHOT'
@@ -76,6 +78,8 @@ dependencies {
     //implementation 'org.springframework.boot:spring-boot-starter-undertow'
     implementation 'org.springframework.boot:spring-boot-starter-reactor-netty'
     implementation 'com.amazonaws:aws-java-sdk-lambda:1.11.648'
+    implementation "com.amazonaws:aws-lambda-java-core:${awsLambdaJavaCore}"
+    implementation "com.amazonaws:aws-lambda-java-events:${awsLambdaJavaEvents}"
 
 }
 
