@@ -33,7 +33,7 @@ public class ProducerProductKafkaConfig {
     //@Scope(value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS) or @SessionScope or
     //@Scope(value = "session", proxyMode = ScopedProxyMode.TARGET_CLASS)
     //@Scope(value = WebApplicationContext.SCOPE_APPLICATION, proxyMode = ScopedProxyMode.TARGET_CLASS) or @ApplicationScope
-    //@Scope(scopeName = "websocket", proxyMode = ScopedProxyMode.TARGET_CLASS)
+    @Scope(scopeName = "websocket", proxyMode = ScopedProxyMode.TARGET_CLASS)
     public KafkaTemplate<String, ProductDto> kafkaTemplate() {
         return new KafkaTemplate<>(kafkaProducerFactory());
     }
